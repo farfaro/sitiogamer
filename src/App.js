@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 function App() {
@@ -8,19 +8,27 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Encontrá tu PC Gamer
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/home.html"
+
         >
-          Learn React
+         <button  >Ingresar</button> 
+        
+          
         </a>
       </header>
     </div>
+
+
+
   );
 }
+
+
+
+
 
 export default App;
